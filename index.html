@@ -5,46 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Julio Gomez</title>
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="content">
       <header>
         <a id="logo_link" href="index.html">
-          <img class="logo" src="./images/logo_personal.png" alt="my logo" />
+          <img class="logo" src="./images/logo_personal_white.svg" alt="my logo" />
         </a>
         <nav>
-          <a href="why_me.html">Why Me</a>
-          <a href="my_portfolio.html">My Portfolio</a>
-          <a href="#">Contact Me</a>
+          <a class="button__text" href="why_me.html">Why Me</a>
+          <a class="button__text" href="my_portfolio.html">My Portfolio</a>
+          <a class="button__primary" href="">Contact Me</a>
         </nav>
       </header>
       <div id="hero">
-        <div id="hero-box">
-          <img
-            id="hero-img"
-            src="./images/hero-image.png"
-            alt="People enjoying white water rafting"
-          />
-        </div>
         <section id="hero-msg">
-          <h1 class="home-title">Hey, I’m Julio</h1>
-          <h3>UX/UI Designer</h3>
-          <p>
+          <h1 class="display">Hey,<br>I’m Julio Gómez</h1>
+          <h2 class="h2-700">UX/UI Designer</h2>
+          <p class="paragraph__large paragraph__large--margin-top-medium">
             I enjoy designing products that deliver an accessible and valuable
             user experience.
           </p>
           <div class="button-box">
-            <a class="book" href="contactus.html">Contact Me</a>
-            <a class="book" href="contactus.html">Download CV</a>
+            <a class="button__primary" href="https://www.linkedin.com/in/soyjuliogomez/" target="_blank">Contact Me</a>
+            <a class="button__secondary" href="./documents/cv_julio_2022_compressed.pdf" target="_blank">Download CV</a>
           </div>
         </section>
+        <div id="hero-box">
+          <img
+            id="hero-img"
+            src="./images/hero-image-desktop.png"
+            alt="People enjoying white water rafting"
+          />
+        </div>
       </div>
       <main class="home-grid">
         <section id="about-me" class="about-me">
           <p class="label">ABOUT ME</p>
-          <h1 class="h3-portfolio">What I Do Best</h1>
-          <p class="p-portfolio">
+          <h1 class="h1-700">What I Do Best</h1>
+          <p class="paragraph__large">
             I love the world of technology and its environment, but it is the
             design of products that I'm most passionate about and that is the
             focus of my attention.
@@ -52,8 +57,8 @@
           <div class="skills">
             <div class="about-skills">
               <img class="about-icons" src="./images/icons/ui-design.svg" />
-              <h3>UI Design</h3>
-              <p>
+              <h3 class="h3-700 h3-700--align-center">UI Design</h3>
+              <p class="paragraph">
                 This is my favorite part of the product design phase. I enjoy
                 defining the components and styles.
               </p>
@@ -68,8 +73,8 @@
             <hr />
             <div class="about-skills">
               <img class="about-icons" src="./images/icons/ux-design.svg" />
-              <h3>UX Design</h3>
-              <p>
+              <h3 class="h3-700">UX Design</h3>
+              <p class="paragraph">
                 I apply my knowledge in wireframes, I make a mental tour of each
                 process of the product.
               </p>
@@ -85,8 +90,8 @@
             <hr />
             <div class="about-skills">
               <img class="about-icons" src="./images/icons/design-system.svg" />
-              <h3>Design Systems</h3>
-              <p>
+              <h3 class="h3-700">Design Systems</h3>
+              <p class="paragraph">
                 I have a vast knowledge in the use and creation of design
                 systems and their environment.
               </p>
@@ -101,8 +106,8 @@
         </section>
         <section id="portfolio" class="portfolio">
           <p class="label">PORTFOLIO</p>
-          <h1>My Portfolio</h1>
-          <p>
+          <h1 class="h1-700">My Portfolio</h1>
+          <p class="paragraph__large">
             I'm constantly updating and challenging myself by creating landing
             pages,<br />
             web apps (SaaS products and dashboards), mobile apps.
@@ -117,13 +122,13 @@
                   class="none"
                   ><img
                     class="portfolio-image"
-                    src="img/Portfolio/site-new.png"
+                    src="./images/portfolio/site-new.png"
                 /></a>
                 <!-- <img class="portfolio-image" src="img/Portfolio/site-new.png" /> -->
               </div>
               <div id="portfolio-detail">
                 <p id="portfolio-label">UX/UI DESIGN</p>
-                <h3 class="h3-portfolio">Stock Images Concept WEB3</h3>
+                <h3 class="h3-700 h3-700--align-left">Stock Images Concept WEB3</h3>
                 <p class="p-portfolio">
                   It is a Stock Image with NFT on a global scale built on the
                   Solana Blockchain.
@@ -138,13 +143,13 @@
                   href="https://www.behance.net/gallery/148076463/WEBSITE-UIUX-DESIGN-CRM"
                   target="_blank"
                   class="none"
-                  ><img class="portfolio-image" src="img/Portfolio/site-1.png"
+                  ><img class="portfolio-image" src="./images/portfolio/site-1.png"
                 /></a>
                 <!-- <img class="portfolio-image" src="img/Portfolio/site-1.png" /> -->
               </div>
               <div id="portfolio-detail">
                 <p id="portfolio-label">UX/UI DESIGN</p>
-                <h3 class="h3-portfolio">Digital Agency</h3>
+                <h3 class="h3-700 h3-700--align-left">Digital Agency</h3>
                 <p class="p-portfolio">
                   Lorem ipsum dolor sit amet,s consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt
@@ -155,11 +160,11 @@
             <!--card3-->
             <div class="card3" id="cards">
               <div id="cover-card">
-                <img class="portfolio-image" src="img/Portfolio/site-2.png" />
+                <img class="portfolio-image" src="./images/portfolio/site-2.png" />
               </div>
               <div id="portfolio-detail">
                 <p id="portfolio-label">UX/UI DESIGN</p>
-                <h3 class="h3-portfolio">Digital Agency</h3>
+                <h3 class="h3-700 h3-700--align-left">Digital Agency</h3>
                 <p class="p-portfolio">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt
@@ -172,12 +177,12 @@
               <div id="cover-card">
                 <img
                   class="portfolio-image"
-                  src="img/Portfolio/portfolio1.png"
+                  src="./images/portfolio/portfolio1.png"
                 />
               </div>
               <div id="portfolio-detail">
                 <p id="portfolio-label">UX/UI DESIGN</p>
-                <h3 class="h3-portfolio">Banking App</h3>
+                <h3 class="h3-700 h3-700--align-left">Banking App</h3>
                 <p class="p-portfolio">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt
@@ -185,25 +190,28 @@
               </div>
             </div>
           </div>
-          <a
-            class="button-portfolio"
+          <div class="button-portfolio-container">
+            <a
+            class="button__primary"
             href="https://www.behance.net/Soyjuliogomez"
             target="_blank"
             >See More...</a
           >
+          </div>
+          
         </section>
         <section class="contact">
-            <img class="about-me-image" src="img/AboutMe.svg" />
+            <img class="about-me-image" src="./images/about-me.svg" />
             <div class="details-contact">
               <p class="label">CONTACT ME</p>
-              <h1>Why Meet Me In This World Of Technology</h1>
-              <p>
+              <h1 class="h1-700">Why Meet Me In This World Of Technology</h1>
+              <p class="paragraph">
                 One of my favorite things is to connect with people who love design,
                 software development, and every person who loves the world of
                 technology and who loves to be constantly learning.
               </p>
               <a
-                class="button-contact"
+                class="button__primary"
                 href="https://www.linkedin.com/in/soyjuliogomez/"
                 target="_blank"
                 >Contact Me</a
@@ -254,6 +262,5 @@
             <p>By Julio Gómez</p>
           </div>
       </footer>
-    </div>
   </body>
 </html>
