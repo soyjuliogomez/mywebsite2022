@@ -1,5 +1,6 @@
 @import "styles/my_portfolio.scss";
 @import "styles/globales.scss";
+@import "styles/card.scss";
 
 
 
@@ -117,19 +118,6 @@ main #portfolio {
     max-width: 1000px;
     padding: 72px 0px 72px 0px;
     text-align: center;
-
-    
-
-    
-
-    h1 {
-      text-align: center;
-    }
-    p {
-      margin-top: 32px;
-      text-align: center;
-      
-    }
 
     #card {
       overflow: hidden;

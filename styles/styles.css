@@ -185,8 +185,10 @@ body {
   text-decoration: none;
 }
 
+/* @import "cards.scss"; */
 .background-portfolio {
-  background-color: #EBFFFF;
+  background-color: #ebffff;
+  padding: 16px;
 }
 
 #hero-portfolio {
@@ -197,7 +199,7 @@ body {
   margin-top: 144px;
 }
 
-#hero-portfolio > .card-new {
+.card-new {
   background-color: #ffffff;
   border-radius: 12px;
   box-sizing: border-box;
@@ -211,16 +213,16 @@ body {
   padding: 16px;
   margin-top: 32px;
 }
-#hero-portfolio > .card-new #cover-card {
+.card-new #cover-card {
   width: 100%;
   height: 400px;
   border-radius: 8px;
   overflow: hidden;
   position: relative;
   /* text-align: center;
-          object-fit: cover; */
+            object-fit: cover; */
 }
-#hero-portfolio > .card-new #cover-card .new {
+.card-new #cover-card .new {
   position: absolute;
   z-index: 2;
   top: 16px;
@@ -233,20 +235,24 @@ body {
   font-weight: 700;
   font-size: 14px;
 }
-#hero-portfolio > .card-new #cover-card .portfolio-image {
+.card-new #cover-card .portfolio-image {
   width: 100%;
   object-fit: cover;
   object-position: center;
   /* background-color: #6c63e6; */
 }
-#hero-portfolio > .card-new #portfolio-detail {
-  margin-top: 32px;
-  padding: 0 16px;
-}
-#hero-portfolio > .card-new #portfolio-detail #portfolio-label {
-  text-align: left;
-  color: #999999;
-  font-size: 14px !important;
+
+#cards-portfolio {
+  overflow: hidden;
+  /* width: 1000px; */
+  margin: 0 auto;
+  grid-auto-flow: dense;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-rows: max-content;
+  column-gap: 32px;
+  row-gap: 32px;
+  justify-content: start;
 }
 
 /* .hero-portfolio > .card--new {
@@ -439,6 +445,39 @@ body {
   text-decoration: none;
 }
 
+#card-component {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-sizing: border-box;
+  width: 100%;
+  /* height: 500px; */
+  box-sizing: border-box;
+  background-color: #ffffff;
+  /* padding: 8px; */
+  box-shadow: 4px 4px 12px rgba(94, 179, 179, 0.1);
+  margin: 0 auto;
+  padding: 16px;
+  margin-top: 32px;
+}
+#card-component #portfolio-detail {
+  text-align: left;
+}
+#card-component #cover-card {
+  width: 100%;
+  height: 400px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  /* text-align: center;
+          object-fit: cover; */
+}
+#card-component #cover-card .portfolio-image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  /* background-color: #6c63e6; */
+}
+
 header {
   margin: 0 auto;
   display: flex;
@@ -525,13 +564,6 @@ main #portfolio {
   /* max-width: 1000px; */
   max-width: 1000px;
   padding: 72px 0px 72px 0px;
-  text-align: center;
-}
-main #portfolio h1 {
-  text-align: center;
-}
-main #portfolio p {
-  margin-top: 32px;
   text-align: center;
 }
 main #portfolio #card {
