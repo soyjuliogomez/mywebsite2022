@@ -7,46 +7,53 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
-  <body>
+  <body class="background-portfolio">
     <div id="content">
       <header>
         <a id="logo_link" href="index.html">
-          <img class="logo" src="../images/logo_personal.png" alt="my logo" />
+          <img
+            class="logo"
+            src="./images/logo_personal_white.svg"
+            alt="my logo"
+          />
         </a>
-        <nav>
-          <a href="why_me.html">Why Me</a>
-          <a href="../wwr/rivers.html">My Portfolio</a>
-          <a href="contactus.html">Contact Me</a>
+        <nav class="topnav">
+          <a class="button__text" href="why_me.html">Why Me</a>
+          <a class="active button__text" href="../wwr/rivers.html"
+            >My Portfolio</a
+          >
+          <a class="button__primary" href="contactus.html">Contact Me</a>
         </nav>
       </header>
-      <div id="hero">
-        
-        <section id="hero-portfolio">
-          <h1 class="home-title">New project</h1>
-          <p>
-            I am constantly updating and challenging myself by creating landing pages,
-web apps (SaaS products and dashboards), mobile apps.
+      <div id="hero-portfolio">
+        <section>
+          <h1 class="h1-700">New project</h1>
+          <p class="paragraph__large paragraph__large--margin-top-medium">
+            I am constantly updating and challenging myself by creating landing
+            pages, web apps (SaaS products and dashboards), mobile apps.
           </p>
-          <div class="card--new" id="cards">
-              <div id="cover-card">
-                <a
-                  href="https://www.behance.net/gallery/148076463/WEBSITE-UIUX-DESIGN-CRM"
-                  target="_blank"
-                  class="none"
-                  ><img class="portfolio-image" src="img/Portfolio/site-1.png"
-                /></a>
-                <!-- <img class="portfolio-image" src="img/Portfolio/site-1.png" /> -->
-              </div>
-              <div id="portfolio-detail">
-                <p id="portfolio-label">UX/UI DESIGN</p>
-                <h3 class="h3-portfolio">Digital Agency</h3>
-                <p class="p-portfolio">
-                  Lorem ipsum dolor sit amet,s consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt
-                </p>
-              </div>
-            </div>
         </section>
+        <div class="card-new" id="card">
+          <div id="cover-card">
+            <label class="new">NEW</label>
+            <a
+              href="https://www.behance.net/gallery/148076463/WEBSITE-UIUX-DESIGN-CRM"
+              target="_blank"
+              class="none"
+              ><img class="portfolio-image" src="./images/portfolio/portfolio1.png"
+            /></a>
+            <!-- <img class="portfolio-image" src="img/Portfolio/site-1.png" /> -->
+          </div>
+          <div id="portfolio-detail">
+            <p>UX/UI DESIGN</p>
+            <h3 class="h3-700 h3-700--margin-top-small">Digital Agency</h3>
+            <p class="paragraph paragraph--margin-top-medium">
+              Lorem ipsum dolor sit amet,s consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt amet,s consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+        </div>
       </div>
       <main class="home-grid">
         <section id="portfolio" class="portfolio">
@@ -143,66 +150,66 @@ web apps (SaaS products and dashboards), mobile apps.
           >
         </section>
         <section class="contact">
-            <img class="about-me-image" src="img/AboutMe.svg" />
-            <div class="details-contact">
-              <p class="label">CONTACT ME</p>
-              <h1>Why Meet Me In This World Of Technology</h1>
-              <p>
-                One of my favorite things is to connect with people who love design,
-                software development, and every person who loves the world of
-                technology and who loves to be constantly learning.
-              </p>
-              <a
-                class="button-contact"
-                href="https://www.linkedin.com/in/soyjuliogomez/"
-                target="_blank"
-                >Contact Me</a
-              >
-            </div>
+          <img class="about-me-image" src="img/AboutMe.svg" />
+          <div class="details-contact">
+            <p class="label">CONTACT ME</p>
+            <h1>Why Meet Me In This World Of Technology</h1>
+            <p>
+              One of my favorite things is to connect with people who love
+              design, software development, and every person who loves the world
+              of technology and who loves to be constantly learning.
+            </p>
+            <a
+              class="button-contact"
+              href="https://www.linkedin.com/in/soyjuliogomez/"
+              target="_blank"
+              >Contact Me</a
+            >
+          </div>
         </section>
       </main>
       <footer>
         <div class="SocialMedia">
-            <h3>Follow Me</h3>
-            <div class="icons-social">
-              <a
-                href="https://www.linkedin.com/in/soyjuliogomez/"
-                target="_blank"
-                class="linkedin"
-                ><img src="./images/icons/footer_icons/linkedIn.svg"
-              /></a>
-              <a
-                href="https://www.linkedin.com/in/soyjuliogomez/"
-                target="_blank"
-                class="dribbble"
-                ><img src="./images/icons/footer_icons/dribbble.svg"
-              /></a>
-              <a
-                href="https://www.instagram.com/juliomanuelgomez/"
-                target="_blank"
-                class="linkedin"
-                ><img src="./images/icons/footer_icons/instagram.svg"
-              /></a>
-              <a
-                href="https://twitter.com/soyjuliogomez"
-                target="_blank"
-                class="linkedin"
-                ><img src="./images/icons/footer_icons/twitter.svg"
-              /></a>
-              <a
-                href="https://www.behance.net/soyjuliogomez"
-                target="_blank"
-                class="linkedin"
-                ><img src="./images/icons/footer_icons/behance.svg"
-              /></a>
-            </div>
+          <h3>Follow Me</h3>
+          <div class="icons-social">
+            <a
+              href="https://www.linkedin.com/in/soyjuliogomez/"
+              target="_blank"
+              class="linkedin"
+              ><img src="./images/icons/footer_icons/linkedIn.svg"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/soyjuliogomez/"
+              target="_blank"
+              class="dribbble"
+              ><img src="./images/icons/footer_icons/dribbble.svg"
+            /></a>
+            <a
+              href="https://www.instagram.com/juliomanuelgomez/"
+              target="_blank"
+              class="linkedin"
+              ><img src="./images/icons/footer_icons/instagram.svg"
+            /></a>
+            <a
+              href="https://twitter.com/soyjuliogomez"
+              target="_blank"
+              class="linkedin"
+              ><img src="./images/icons/footer_icons/twitter.svg"
+            /></a>
+            <a
+              href="https://www.behance.net/soyjuliogomez"
+              target="_blank"
+              class="linkedin"
+              ><img src="./images/icons/footer_icons/behance.svg"
+            /></a>
           </div>
-          <hr />
-          <div class="last-block">
-            <p>© 2022 Designed with</p>
-            <img class="heart-icon" src="./images/icons/footer_icons/heart.svg" />
-            <p>By Julio Gómez</p>
-          </div>
+        </div>
+        <hr />
+        <div class="last-block">
+          <p>© 2022 Designed with</p>
+          <img class="heart-icon" src="./images/icons/footer_icons/heart.svg" />
+          <p>By Julio Gómez</p>
+        </div>
       </footer>
     </div>
   </body>
