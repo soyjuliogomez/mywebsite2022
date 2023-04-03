@@ -166,15 +166,7 @@ main #portfolio {
           }
         }
 
-        #portfolio-detail {
-          margin-top: 32px;
-          padding: 0 16px;
-
-          #portfolio-label {
-            text-align: left;
-            color: #999999;
-            font-size: 14px !important;
-          }
+        
           .h3-portfolio {
             margin-top: 8px;
             text-align: left;
@@ -228,8 +220,7 @@ main #portfolio {
     }
     
     
-  }
-
+  
 main .contact {
     grid-area: Contact;
     margin: 0px auto;

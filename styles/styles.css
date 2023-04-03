@@ -185,6 +185,19 @@ body {
   text-decoration: none;
 }
 
+/* labels */
+#portfolio-detail {
+  padding: 0 16px;
+}
+
+#portfolio-label {
+  text-align: left;
+  color: #999999;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  font-size: 14px !important;
+}
+
 /* @import "cards.scss"; */
 .background-portfolio {
   background-color: #ebffff;
@@ -445,6 +458,19 @@ body {
   text-decoration: none;
 }
 
+/* labels */
+#portfolio-detail {
+  padding: 0 16px;
+}
+
+#portfolio-label {
+  text-align: left;
+  color: #999999;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  font-size: 14px !important;
+}
+
 #card-component {
   background-color: #ffffff;
   border-radius: 12px;
@@ -609,49 +635,41 @@ main #portfolio #card #cards #cover-card .portfolio-image {
   object-position: center;
   /* background-color: #6c63e6; */
 }
-main #portfolio #card #cards #portfolio-detail {
-  margin-top: 32px;
-  padding: 0 16px;
-}
-main #portfolio #card #cards #portfolio-detail #portfolio-label {
-  text-align: left;
-  color: #999999;
-  font-size: 14px !important;
-}
-main #portfolio #card #cards #portfolio-detail .h3-portfolio {
+main #portfolio #card #cards .h3-portfolio {
   margin-top: 8px;
   text-align: left;
   color: #786ff4;
 }
-main #portfolio #card #cards #portfolio-detail .p-portfolio {
+main #portfolio #card #cards .p-portfolio {
   margin-top: 24px;
   margin-bottom: 48px;
   /* font-size: 16px !important; */
   text-align: left;
   color: #4d4d4d;
 }
-main #portfolio #card .card1 {
+main #portfolio .card1 {
   position: relative;
 }
-main #portfolio #card .card2 {
+main #portfolio .card2 {
   position: relative;
 }
-main #portfolio #card .card3 {
+main #portfolio .card3 {
   position: relative;
 }
-main #portfolio #card .card4 {
-  position: relative;
-  /* grid-row-start: 2; */
-}
-main #portfolio #card .card5 {
+main #portfolio .card4 {
   position: relative;
   /* grid-row-start: 2; */
 }
-main #portfolio #card .card6 {
+main #portfolio .card5 {
   position: relative;
   /* grid-row-start: 2; */
 }
-main #portfolio .button-portfolio-container {
+main #portfolio .card6 {
+  position: relative;
+  /* grid-row-start: 2; */
+}
+
+.button-portfolio-container {
   display: flex;
   flex-direction: column;
   align-items: center;
