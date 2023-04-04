@@ -99,6 +99,13 @@ $neutral-light-00: #F8F8FF;
     &--margin-top-medium {
     margin-top: 24px;
     }
+    &--margin-bottom {
+        margin-bottom: 40px;
+        }
+
+    &--align-center {
+        text-align: center;
+    }
 }
 
 .h2-700 {
@@ -133,6 +140,9 @@ $neutral-light-00: #F8F8FF;
     &--margin-top-small {
         margin-top: 16px;
         }
+    &--font-weight-400 {
+        font-weight: 400;
+    }
     
     
 }
@@ -178,15 +188,21 @@ $neutral-light-00: #F8F8FF;
     border-style: solid;
     font-family: 'Inter', sans-serif;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
      /* border-style: inset; */
     border-color: #786FF4;
     border-width: 2px;
-    padding: 16px 48px;
+    padding: 0 32px;
     border-radius: 12px;
     text-decoration: none;
     font-weight: 700;
     font-size: 18px;
+    box-sizing: border-box;
     color:#323030;
+    height: 56px;
+    max-width: fit-content;
     
     /* vertical-align: middle; */
    
