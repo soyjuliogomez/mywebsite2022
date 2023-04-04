@@ -835,7 +835,8 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 96px;
+  margin-top: 144px;
+  margin-bottom: 144px;
 }
 
 .worked-with > .logos-line1 {
@@ -863,6 +864,29 @@ body {
   justify-content: center;
   gap: 48px;
   margin-top: 144px;
+  margin-bottom: 144px;
+}
+
+.why-me-testimonials {
+  margin: 0 auto;
+  max-width: 1000px;
+  margin-top: 144px;
+  margin-bottom: 144px;
+}
+
+.client-testimonials {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.why-me-testimonials > .client-testimonials .testimonil-stars {
+  margin-top: 24px;
+}
+
+.why-me-testimonials > h1 {
+  text-align: center;
 }
 
 header {
