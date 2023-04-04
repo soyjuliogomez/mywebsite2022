@@ -1,9 +1,16 @@
 @import "./globales.scss";
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+  
+}
 /* @import "cards.scss"; */
 
 .background-portfolio {
   background-color: #ebffff;
-  padding: 16px;
+  
 }
 #hero-portfolio {
   display: flex;
@@ -75,4 +82,19 @@
 }
 /* .hero-portfolio > .card--new {
 
+} */
+
+.butt-portfolio {
+  margin: 0 auto;
+  margin-top: 48px ;
+  display: flex;
+  justify-content: center;
+
+}
+
+/* .last-button-portfolio {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 } */

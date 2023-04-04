@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /* spacing */
 @font-face {
   font-family: "Recoleta";
@@ -24,12 +30,6 @@
   src: url("./fonts/RecoletaLight.otf");
   font-weight: 300;
 }
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   margin: 0px;
   /* background-color:aqua; */
@@ -198,10 +198,15 @@ body {
   font-size: 14px !important;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /* @import "cards.scss"; */
 .background-portfolio {
   background-color: #ebffff;
-  padding: 16px;
 }
 
 #hero-portfolio {
@@ -271,6 +276,25 @@ body {
 /* .hero-portfolio > .card--new {
 
 } */
+.butt-portfolio {
+  margin: 0 auto;
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+/* .last-button-portfolio {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /* spacing */
 @font-face {
   font-family: "Recoleta";
@@ -297,12 +321,6 @@ body {
   src: url("./fonts/RecoletaLight.otf");
   font-weight: 300;
 }
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   margin: 0px;
   /* background-color:aqua; */
@@ -502,6 +520,261 @@ body {
   object-fit: cover;
   object-position: center;
   /* background-color: #6c63e6; */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* spacing */
+@font-face {
+  font-family: "Recoleta";
+  src: url("./fonts/RecoletaBlack.otf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Recoleta";
+  src: url("./fonts/recoletabold.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Recoleta";
+  src: url("./fonts/RecoletaMedium.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Recoleta";
+  src: url("./fonts/RecoletaRegular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Recoleta";
+  src: url("./fonts/RecoletaLight.otf");
+  font-weight: 300;
+}
+body {
+  margin: 0px;
+  /* background-color:aqua; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.label {
+  margin-bottom: 8px;
+  /* text-align: $align; */
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: #DDFEFE;
+  color: #7B9393 !important;
+  padding: 8px 24px;
+  width: fit-content;
+  font-size: 14px !important;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  /* box-sizing: border-box; */
+  margin-bottom: 8px;
+}
+
+.paragraph-small {
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.paragraph {
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+}
+.paragraph--margin-top-large {
+  margin-top: 32px;
+}
+.paragraph--margin-top-medium {
+  margin-top: 24px;
+}
+
+.paragraph__large {
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+}
+.paragraph__large--margin-top-large {
+  margin-top: 32px;
+}
+.paragraph__large--margin-top-medium {
+  margin-top: 24px;
+}
+
+.h2-700 {
+  font-size: 32px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.h3-700 {
+  font-size: 24px;
+  font-family: "Recoleta";
+  font-weight: 700;
+  line-height: 120%;
+}
+.h3-700--align-center {
+  text-align: center;
+}
+.h3-700--align-left {
+  text-align: left;
+}
+.h3-700--margin-top-large {
+  margin-top: 32px;
+}
+.h3-700--margin-top-medium {
+  margin-top: 24px;
+}
+.h3-700--margin-top-small {
+  margin-top: 16px;
+}
+
+.h1-700 {
+  font-size: 48px;
+  font-family: "Recoleta";
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.display {
+  font-family: "Recoleta";
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.button__primary {
+  font-family: "Work Sans", sans-serif;
+  height: 56px;
+  background-color: #786FF4;
+  display: flex;
+  color: #F8F8FF;
+  justify-content: center;
+  align-items: center;
+  padding: 0 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 18px;
+  box-sizing: border-box;
+  max-width: fit-content;
+}
+
+.button__secondary {
+  border-style: solid;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  /* border-style: inset; */
+  border-color: #786FF4;
+  border-width: 2px;
+  padding: 16px 48px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #323030;
+  /* vertical-align: middle; */
+}
+
+.button-tertiary {
+  box-sizing: border-box;
+  cursor: pointer;
+  color: #786FF4;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  text-decoration: underline;
+  padding: 12px 16px;
+}
+.button-tertiary:hover {
+  color: #5b53d1;
+}
+
+.button__text {
+  font-family: "Work Sans", sans-serif;
+  height: 56px;
+  background-color: rgba(22, 23, 27, 0);
+  display: flex;
+  color: #F8F8FF;
+  justify-content: center;
+  align-items: center;
+  padding: 0 44px;
+  text-decoration: none;
+}
+
+/* labels */
+#portfolio-detail {
+  padding: 0 16px;
+}
+
+#portfolio-label {
+  text-align: left;
+  color: #999999;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  font-size: 14px !important;
+}
+
+#why-me-hero {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-items: center;
+  /* background-color: aqua; */
+  gap: 48px;
+  margin-top: 96px;
+  /* padding: 32px; */
+}
+
+.container-images {
+  max-width: 600px;
+  display: grid;
+  height: 600px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 16px;
+  /* background-color: brown; */
+}
+
+#hero-image1 {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  overflow: hidden;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+#hero-image2 {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  overflow: hidden;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+#hero-imagefull {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  overflow: hidden;
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+
+#container-images > #why-me-image {
+  object-fit: contain;
+  object-position: center;
 }
 
 header {

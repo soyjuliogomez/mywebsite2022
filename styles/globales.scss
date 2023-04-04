@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+}
 /* spacing */
 $xxl: 144px;
 
@@ -30,13 +37,7 @@ $xxl: 144px;
     font-weight: 300;
     }
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
-    
-}
+
 
 body {
     margin: 0px;
@@ -241,3 +242,5 @@ $neutral-light-00: #F8F8FF;
       margin-bottom: 8px;
     font-size: 14px !important;
   }
+
+  
