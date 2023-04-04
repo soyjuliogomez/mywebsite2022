@@ -746,8 +746,7 @@ body {
 }
 
 #hero-image1 {
-  width: 300px;
-  height: auto;
+  max-width: 100%;
   border-radius: 8px;
   overflow: hidden;
   grid-column: 1/2;
@@ -755,26 +754,33 @@ body {
 }
 
 #hero-image2 {
-  width: 300px;
-  height: auto;
+  /* max-width: 100%;
+  height: auto; */
   border-radius: 8px;
   overflow: hidden;
   grid-column: 1/2;
   grid-row: 2/3;
 }
+#hero-image2 .why-me-image {
+  max-width: 100%;
+  /* height: auto; */
+  border-radius: 8px;
+  /* img {
+      object-fit: cover;
+      object-position: top;
+    } */
+}
 
 #hero-imagefull {
-  width: 300px;
-  height: auto;
+  max-width: 100%;
   border-radius: 8px;
   overflow: hidden;
   grid-column: 2/3;
   grid-row: 1/3;
-}
-
-#container-images > #why-me-image {
-  object-fit: contain;
-  object-position: center;
+  /* img {
+      object-fit: cover;
+      object-position: center;
+    } */
 }
 
 header {
