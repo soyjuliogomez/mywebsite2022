@@ -15,8 +15,8 @@
 
 
 #hero-portfolio {
-  display: flex;
-  flex-direction: column;
+  
+  
   max-width: 1000px;
   margin: 0 auto;
   margin-top: $xxl;
@@ -36,6 +36,11 @@ main > #portfolio-page {
   width: 1000px;
   margin: 0 auto;
   margin-top: 144px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   #cards-portfolio {
     /* overflow: hidden; */
@@ -128,6 +133,7 @@ main > #portfolio-page {
   margin-top: 48px ;
   display: flex;
   justify-content: center;
+  margin-bottom: 144px;
 
 }
 
