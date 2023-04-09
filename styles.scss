@@ -120,7 +120,7 @@ main #portfolio {
     padding: 72px 0px 72px 0px;
     text-align: center;
 
-    #card {
+    #card-home {
       overflow: hidden;
       width: 100%;
       margin: 0 auto;
@@ -151,7 +151,7 @@ main #portfolio {
         box-shadow: 4px 4px 12px rgba(94, 179, 179, 0.1);
         margin: 0 auto;
 
-        #cover-card {
+        #cover-card-home {
           width: 100%;
           height: 300px;
           border-radius: 8px;
@@ -159,7 +159,7 @@ main #portfolio {
           /* text-align: center;
                   object-fit: cover; */
 
-          .portfolio-image {
+          .portfolio-image-home {
             width: 100%;
             object-fit: cover;
             object-position: center;
@@ -176,7 +176,7 @@ main #portfolio {
           .p-portfolio {
             margin-top: 24px;
             margin-bottom: 48px;
-            /* font-size: 16px !important; */
+            
             text-align: left;
             color: #4d4d4d;
           }
@@ -197,17 +197,17 @@ main #portfolio {
 
       .card4 {
         position: relative;
-        /* grid-row-start: 2; */
+        
       }
 
       .card5 {
         position: relative;
-        /* grid-row-start: 2; */
+        
       }
 
       .card6 {
         position: relative;
-        /* grid-row-start: 2; */
+        
       }
       
     }

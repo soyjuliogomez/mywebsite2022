@@ -232,6 +232,41 @@ body {
   margin-top: 144px;
 }
 
+/* main  .home-grid {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 72px;
+
+} */
+main > #portfolio-page {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 144px;
+}
+main > #portfolio-page #cards-portfolio {
+  /* overflow: hidden; */
+  /* width: 1000px;
+  margin: 0 auto; */
+  /* grid-auto-flow: dense;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-rows: max-content;
+  column-gap: 32px;
+  row-gap: 32px;
+  justify-content: start */
+  max-width: 100%;
+  margin: 0 auto;
+  grid-auto-flow: dense;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-rows: max-content;
+  column-gap: 8px;
+  row-gap: 8px;
+  padding: 8px 8px 0px 8px;
+}
+
 .card-new {
   background-color: #ffffff;
   border-radius: 12px;
@@ -246,7 +281,7 @@ body {
   padding: 16px;
   margin-top: 32px;
 }
-.card-new #cover-card {
+.card-new #cover-card-new {
   width: 100%;
   height: 400px;
   border-radius: 8px;
@@ -255,7 +290,7 @@ body {
   /* text-align: center;
             object-fit: cover; */
 }
-.card-new #cover-card .new {
+.card-new #cover-card-new .new {
   position: absolute;
   z-index: 2;
   top: 16px;
@@ -268,24 +303,16 @@ body {
   font-weight: 700;
   font-size: 14px;
 }
-.card-new #cover-card .portfolio-image {
+.card-new #cover-card-new a > img:hover {
+  /* scale: 105%; */
+  /* width: 100%; */
+  transition: all 300ms;
+}
+.card-new #cover-card-new .portfolio-image-new {
   width: 100%;
   object-fit: cover;
   object-position: center;
   /* background-color: #6c63e6; */
-}
-
-#cards-portfolio {
-  overflow: hidden;
-  /* width: 1000px; */
-  margin: 0 auto;
-  grid-auto-flow: dense;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-template-rows: max-content;
-  column-gap: 32px;
-  row-gap: 32px;
-  justify-content: start;
 }
 
 /* .hero-portfolio > .card--new {
@@ -523,8 +550,8 @@ body {
   background-color: #ffffff;
   border-radius: 12px;
   box-sizing: border-box;
-  width: 100%;
-  /* height: 500px; */
+  /* max-width: 100%;
+  height: 500px; */
   box-sizing: border-box;
   background-color: #ffffff;
   /* padding: 8px; */
@@ -537,19 +564,36 @@ body {
   text-align: left;
 }
 #card-component #cover-card {
-  width: 100%;
-  height: 400px;
+  max-width: 100%;
   border-radius: 8px;
   overflow: hidden;
-  position: relative;
+  /* position: relative; */
+  /* a {
+    display: inline;
+  } */
   /* text-align: center;
           object-fit: cover; */
 }
-#card-component #cover-card .portfolio-image {
+#card-component #cover-card a > img {
+  /* display: block; */
+  /* width: 100%;
+  margin: 0 auto;
+  height: 400px;
+   */
+  /* display: block; */
   width: 100%;
+  height: 400px;
   object-fit: cover;
   object-position: center;
-  /* background-color: #6c63e6; */
+  /*  .portfolio-image {
+
+    object-fit: cover;
+    object-position: center;
+  } */
+}
+#card-component #cover-card a > img:hover {
+  scale: 105%;
+  transition: all 300ms;
 }
 
 * {
@@ -977,7 +1021,7 @@ main #portfolio {
   padding: 72px 0px 72px 0px;
   text-align: center;
 }
-main #portfolio #card {
+main #portfolio #card-home {
   overflow: hidden;
   width: 100%;
   margin: 0 auto;
@@ -992,10 +1036,10 @@ main #portfolio #card {
   column-gap: 32px;
   row-gap: 32px;
 }
-main #portfolio #card p {
+main #portfolio #card-home p {
   font-size: 16px !important;
 }
-main #portfolio #card #cards {
+main #portfolio #card-home #cards {
   border-radius: 12px;
   box-sizing: border-box;
   width: 100%;
@@ -1006,7 +1050,7 @@ main #portfolio #card #cards {
   box-shadow: 4px 4px 12px rgba(94, 179, 179, 0.1);
   margin: 0 auto;
 }
-main #portfolio #card #cards #cover-card {
+main #portfolio #card-home #cards #cover-card-home {
   width: 100%;
   height: 300px;
   border-radius: 8px;
@@ -1014,21 +1058,20 @@ main #portfolio #card #cards #cover-card {
   /* text-align: center;
           object-fit: cover; */
 }
-main #portfolio #card #cards #cover-card .portfolio-image {
+main #portfolio #card-home #cards #cover-card-home .portfolio-image-home {
   width: 100%;
   object-fit: cover;
   object-position: center;
   /* background-color: #6c63e6; */
 }
-main #portfolio #card #cards .h3-portfolio {
+main #portfolio #card-home #cards .h3-portfolio {
   margin-top: 8px;
   text-align: left;
   color: #786ff4;
 }
-main #portfolio #card #cards .p-portfolio {
+main #portfolio #card-home #cards .p-portfolio {
   margin-top: 24px;
   margin-bottom: 48px;
-  /* font-size: 16px !important; */
   text-align: left;
   color: #4d4d4d;
 }
@@ -1043,15 +1086,12 @@ main #portfolio .card3 {
 }
 main #portfolio .card4 {
   position: relative;
-  /* grid-row-start: 2; */
 }
 main #portfolio .card5 {
   position: relative;
-  /* grid-row-start: 2; */
 }
 main #portfolio .card6 {
   position: relative;
-  /* grid-row-start: 2; */
 }
 
 .button-portfolio-container {
