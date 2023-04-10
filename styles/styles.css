@@ -151,6 +151,9 @@ body {
   box-sizing: border-box;
   max-width: fit-content;
 }
+.button__primary:hover {
+  background-color: #645be7;
+}
 
 .button__secondary {
   border-style: solid;
@@ -172,6 +175,9 @@ body {
   height: 56px;
   max-width: fit-content;
   /* vertical-align: middle; */
+}
+.button__secondary:hover {
+  background-color: #f2f1ff;
 }
 
 .button-tertiary {
@@ -306,8 +312,7 @@ main > #portfolio-page #cards-portfolio {
   font-size: 14px;
 }
 .card-new #cover-card-new a > img:hover {
-  /* scale: 105%; */
-  /* width: 100%; */
+  scale: 105%;
   transition: all 300ms;
 }
 .card-new #cover-card-new .portfolio-image-new {
@@ -487,6 +492,9 @@ body {
   box-sizing: border-box;
   max-width: fit-content;
 }
+.button__primary:hover {
+  background-color: #645be7;
+}
 
 .button__secondary {
   border-style: solid;
@@ -508,6 +516,9 @@ body {
   height: 56px;
   max-width: fit-content;
   /* vertical-align: middle; */
+}
+.button__secondary:hover {
+  background-color: #f2f1ff;
 }
 
 .button-tertiary {
@@ -752,6 +763,9 @@ body {
   box-sizing: border-box;
   max-width: fit-content;
 }
+.button__primary:hover {
+  background-color: #645be7;
+}
 
 .button__secondary {
   border-style: solid;
@@ -773,6 +787,9 @@ body {
   height: 56px;
   max-width: fit-content;
   /* vertical-align: middle; */
+}
+.button__secondary:hover {
+  background-color: #f2f1ff;
 }
 
 .button-tertiary {
@@ -924,8 +941,9 @@ body {
 .client-testimonials {
   margin-top: 40px;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
+  gap: 48px;
 }
 
 .why-me-testimonials > .client-testimonials .testimonil-stars {
@@ -934,6 +952,10 @@ body {
 
 .why-me-testimonials > h1 {
   text-align: center;
+}
+
+.oblique {
+  font-style: oblique;
 }
 
 header {

@@ -139,6 +139,8 @@
     margin: 0 auto;
     max-width: 1000px;
     
+
+    
     margin-top: 144px;
     margin-bottom: 144px;
 
@@ -147,8 +149,9 @@
 .client-testimonials {
     margin-top: 40px;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
+    gap: 48px;
 
 }
 
@@ -159,3 +162,7 @@
 .why-me-testimonials > h1 {
     text-align: center;
 }
+
+.oblique {
+    font-style: oblique;
+  }

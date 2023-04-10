@@ -52,8 +52,10 @@ body {
 
 
 $primary-00: #786FF4;
+$primary-20: #645be7;
 $neutral-dark-00: #16171B;
 $neutral-light-00: #F8F8FF;
+$neutral-light-20: #f2f1ff;
 
 .label {
     margin-bottom: 8px;
@@ -181,6 +183,10 @@ $neutral-light-00: #F8F8FF;
     font-size: 18px;
     box-sizing: border-box;
     max-width: fit-content;
+    &:hover{
+        background-color: $primary-20;
+
+    }
     
 }
 
@@ -203,6 +209,10 @@ $neutral-light-00: #F8F8FF;
     color:#323030;
     height: 56px;
     max-width: fit-content;
+
+    &:hover{
+        background-color: $neutral-light-20;
+    }
     
     /* vertical-align: middle; */
    
